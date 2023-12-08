@@ -16,7 +16,7 @@ For next commands an acknoledgement is displayed at end of each operation in SDF
 # For Distributed File System:
 1) put localfilename sdfsfilename: Writes file to distributed filesystem from local directory (directory where .cpp files are)
 2) get sdfsfilename localfilename: Reads files from distributed filesystem to local directory
-3) delete sdfsfilename: deletes file frm distributed filesystem
+3) delete sdfsfilename: deletes file from distributed filesystem
 4) ls sdfsfilename: list all VM addresses where this file is currently replicated
 5) store: list the set of file names that are replicated (stored) on SDFS at this (local) process/VM
 
