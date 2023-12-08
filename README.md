@@ -1,6 +1,6 @@
 # Custom Distributed File System with custom Map Reduce and Failure Detector.
 
-1) In main.cpp, change path to be path to this directory.
+1) In main.cpp, change sysfile_path to be path to this directory.
 2) compile using 'make maple_juice', the name of our custom map reduce.
 3) Use ./maple_juice to run.
 
@@ -32,6 +32,10 @@ For next commands an acknoledgement is displayed at end of each operation in SDF
 5) JOIN <dataset1> <integer_colomn_of_D1> = <dataset2> <integer_colomn_of_D2>: launches SQL style JOIN on csv file.
 
 All input files must have been written to the SDFS before launching.
+
+
+
+
 
 
 Thank you!
