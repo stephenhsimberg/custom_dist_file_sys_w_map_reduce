@@ -22,12 +22,12 @@ For next commands an acknoledgement is displayed at end of each operation in SDF
 
 # For Maple Juice (Custom Map Reduce)
 1) maple <maple_exe> <num_maples> <sdfs_intermediate_filename_prefix> <sdfs_src_directory> <arg>:
-       * This allows for users to use their own exe map file when executable is in local directory of every machine. arg is 'none' if executable takes no arguments.
-       * num_maples is the number of map tasks assigned, max is number of machines (will default to if too high).
-       * input_dir and intermediate_dir MUST be different.  
+* This allows for users to use their own exe map file when executable is in local directory of every machine. arg is 'none' if executable takes no arguments.
+* num_maples is the number of map tasks assigned, max is number of machines (will default to if too high).
+* input_dir and intermediate_dir MUST be different.  
 3) juice <juice_exe> <num_juices> <sdfs_intermediate_filename_prefix> <sdfs_dest_filename> delete_input={0,1}:
-       * Same as map, but for reduce.
-       * intermediate_dir MUST be same as maple
+* Same as map, but for reduce.
+* intermediate_dir MUST be same as maple
 4) SELECT <sdfs file_dir or file> <regex>: Combines map and reduce tasks to one SQL query lauch: Took 10s on >300 MB file (faster than Hadoop!)
 5) JOIN <dataset1> <integer_colomn_of_D1> = <dataset2> <integer_colomn_of_D2>: launches SQL style JOIN on csv file.
 
