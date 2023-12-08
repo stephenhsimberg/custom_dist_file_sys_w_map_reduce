@@ -3,7 +3,7 @@
 1) In main.cpp, change sysfile_path to be path to this directory.
 2) compile using 'make maple_juice', the name of our custom map reduce.
 3) Use ./maple_juice to run.
-4) Supports 4-10 machines.
+4) Supports 4-10 linux machines.
 
 
 # Commands:
