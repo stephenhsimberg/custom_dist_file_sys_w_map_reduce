@@ -53,7 +53,7 @@ int main() {
 
     sysfile_path = "/home/sysfiles";
 
-    std::string path(path);
+    std::string path(sysfile_path);
     system("rm -r sysfiles");
     system("mkdir sysfiles");
     // for (auto &file_iterator : std::filesystem::recursive_directory_iterator(path)) {
