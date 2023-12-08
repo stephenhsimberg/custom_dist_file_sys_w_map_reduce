@@ -30,7 +30,7 @@
 * Same as map, but for reduce.
 * intermediate_dir MUST be same as maple.
 4) SELECT <sdfs file_dir or file> <regex>: Combines map and reduce tasks to one SQL query lauch: Took 10s on >300 MB file (faster than Hadoop!) output returned on local machine inputted from.
-5) JOIN <dataset1> <integer_colomn_of_D1> = <dataset2> <integer_colomn_of_D2>: launches SQL style JOIN on csv file, output returned on machine inputted from.
+5) JOIN < dataset1 > <integer_colomn_of_D1> = < dataset2 > <integer_colomn_of_D2>: launches SQL style JOIN on csv file, output returned on machine inputted from.
 
 All input files must have been written to the SDFS before launching.
 
