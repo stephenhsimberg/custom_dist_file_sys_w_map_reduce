@@ -67,16 +67,16 @@ int main() {
         machines_avail.push_back(0);
     }
 
-    machine_names.push_back("fa23-cs425-1601.cs.illinois.edu");
-    machine_names.push_back("fa23-cs425-1602.cs.illinois.edu");
-    machine_names.push_back("fa23-cs425-1603.cs.illinois.edu");
-    machine_names.push_back("fa23-cs425-1604.cs.illinois.edu");
-    machine_names.push_back("fa23-cs425-1605.cs.illinois.edu");
-    machine_names.push_back("fa23-cs425-1606.cs.illinois.edu");
-    machine_names.push_back("fa23-cs425-1607.cs.illinois.edu");
-    machine_names.push_back("fa23-cs425-1608.cs.illinois.edu");
-    machine_names.push_back("fa23-cs425-1609.cs.illinois.edu");
-    machine_names.push_back("fa23-cs425-1610.cs.illinois.edu");
+    machine_names.push_back("");
+    machine_names.push_back("");
+    machine_names.push_back("");
+    machine_names.push_back("");
+    machine_names.push_back("");
+    machine_names.push_back("");
+    machine_names.push_back("");
+    machine_names.push_back("");
+    machine_names.push_back("");
+    machine_names.push_back("");
     ports.push_back(1601);
     ports.push_back(1602);
     ports.push_back(1603);
