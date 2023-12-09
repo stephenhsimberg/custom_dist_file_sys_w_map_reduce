@@ -1,6 +1,6 @@
 # Custom Distributed File System with Custom Map Reduce and Failure Detector.
 
-1) In main.cpp, change sysfile_path to be path to this directory.
+1) In main.cpp, change sysfile_path to be path to this directory, and add DNS of machine to machine names.
 2) compile using 'make maple_juice', the name of our custom map reduce.
 3) Use ./maple_juice to run.
 4) Supports 4-10 linux machines.
